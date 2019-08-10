@@ -1,0 +1,42 @@
+body{
+  margin : 5px;
+  padding : 5px;
+  background:whitesmoke
+}
+#header{
+  background: linear-gradient(to top, rgb(12, 252, 12), rgb(188, 224, 205));
+  border-radius: 30%;
+  width: 70%;
+  position: absolute left 50%;
+  border: 2px ridge black
+}
+#title{
+  text-align: center;
+  font-weight: bold;
+  font-size:26px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+.input-nav{
+  text-align: center;
+}
+.input-text{
+  width: 30%;
+}
+.toDolists{
+  background-color: aquamarine;
+  border: 1px dashed greenyellow;
+  margin: 2px;
+  padding: 6px;
+  font-family: '굴림',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul{
+  list-style-type: circle;
+}
+.message-delete-btn{
+  float: right;
+  background: white;
+  color:black;
+  border-radius: 50%;
+  border: 0.2px solid ;
+}
